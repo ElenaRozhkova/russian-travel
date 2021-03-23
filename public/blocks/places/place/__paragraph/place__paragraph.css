@@ -1,0 +1,14 @@
+.place__paragraph {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 163%;
+    align-self: start;
+    /* or 29px */
+    
+    color: #FFFFFF;
+   
+    
+}
