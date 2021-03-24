@@ -3,4 +3,13 @@ max-width: 1184px;
 width: 100%;
 display: flex;
 position: relative;
+margin-bottom: 92px;
 }
+
+
+@media screen and (max-width: 465px) {
+    .cover  {
+      margin-bottom:  64px;
+    }
+ 
+} 

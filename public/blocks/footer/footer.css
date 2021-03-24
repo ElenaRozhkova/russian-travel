@@ -2,8 +2,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: 42px;;
-    max-height: 52px; 
     max-width: 1065px;
+    width: 100%;
 
 }
+
+@media screen and (max-width: 465px) {
+    .footer  {
+      flex-direction: column;
+      align-items: stretch;
+    }
+ 
+} 

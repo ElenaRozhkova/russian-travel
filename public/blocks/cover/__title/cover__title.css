@@ -3,14 +3,19 @@ font-style: normal;
 font-weight: 900;
 font-size: 72px;
 line-height: 106%;
-width: 560px;
+max-width: 560px;
+width: 100%;
 text-align: center;
-
 color: #FFFFFF;
-margin-bottom: 32px;
 position: absolute;
-top: 30%;
+top: 40%;
 left: 50%;
 transform: translate(-50%, -50%);
-
 }
+
+@media screen and (max-width: 768px) {
+    .cover__title {
+        font-size: 32px;
+        top: 35%;
+    }
+} 
