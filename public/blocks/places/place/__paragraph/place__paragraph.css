@@ -23,7 +23,6 @@
     }
 
     .place__paragraph:last-of-type {
-        /* поговорить про обнуление */
         margin-bottom: 0;
     }
 } 

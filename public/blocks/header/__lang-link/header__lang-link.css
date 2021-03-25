@@ -1,8 +1,6 @@
 .header__lang-link{
 max-width: 30px;
 width: 100%;
-max-height: 28px;
-height: 100%;
 font-style: normal;
 font-weight: normal;
 font-size: 24px;
@@ -13,14 +11,13 @@ margin-right: 18px;
 text-decoration: none;
 }
 
-.header__lang-link:hover {
-    text-decoration: underline;
-}
-
 .header__lang-link:last-of-type {
     margin-right: 0;
 }
 
+.header__lang-link:hover {
+    text-decoration: underline;
+}
 
 @media screen and (max-width: 425px) {
     .header__lang-link  {
@@ -28,6 +25,6 @@ text-decoration: none;
        
     }
     .header__lang-link:last-of-type {
-        margin-right: 18px;
+        margin-right: 0;
     }
 } 

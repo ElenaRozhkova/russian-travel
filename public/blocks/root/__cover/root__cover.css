@@ -1,0 +1,9 @@
+.root__cover {
+    background-image: url(../../../images/cover-trains.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  
+opacity: 0.3;
+}

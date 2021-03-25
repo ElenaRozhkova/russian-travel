@@ -8,13 +8,22 @@ width: 100%;
 text-align: center;
 color: #FFFFFF;
 position: absolute;
-top: 40%;
+top: 45%;
 left: 50%;
 transform: translate(-50%, -50%);
+text-decoration: none;
 }
 
 @media screen and (max-width: 768px) {
     .cover__title {
+        font-size: 32px;
+        top: 35%;
+    }
+} 
+@media screen and (max-width: 320px) {
+    .cover__title {
+        max-width: 288px;
+        width: 90%;
         font-size: 32px;
         top: 35%;
     }

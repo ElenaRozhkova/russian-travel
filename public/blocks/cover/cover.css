@@ -1,10 +1,28 @@
 .cover {
-max-width: 1184px;
-width: 100%;
-display: flex;
-position: relative;
-margin-bottom: 92px;
+  min-height: 70vh;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 92px;
 }
+
+
+@media screen and (max-width: 1024px) {
+  .cover  {
+    max-width: 1024px;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+} 
+
+
+@media screen and (max-width: 768px) {
+  .cover  {
+    margin-bottom: 88px;
+  }
+
+} 
 
 
 @media screen and (max-width: 465px) {
@@ -13,3 +31,4 @@ margin-bottom: 92px;
     }
  
 } 
+
