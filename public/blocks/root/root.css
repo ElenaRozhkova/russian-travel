@@ -1,6 +1,5 @@
 .root {
   background: #2A2C2F;
-  font-family: 'Inter', sans-serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
@@ -9,9 +8,4 @@
   text-rendering: optimizeLegibility;
   }
 
-  @media screen and (max-width: 1280px) {
-    .root  {
-
-    }
-} 
-  
+ 

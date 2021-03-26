@@ -1,4 +1,4 @@
 .root__section {
-    width: 93%;
-    margin: auto;
+    max-width: 1184px;
+    margin: 0 auto;
 }

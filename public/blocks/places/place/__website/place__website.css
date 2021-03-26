@@ -5,3 +5,10 @@
     color: #FFFFFF;  
     padding-inline-start: 0;
 }
+
+@media screen and (max-width: 740px) {
+    .place__website  {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+} 

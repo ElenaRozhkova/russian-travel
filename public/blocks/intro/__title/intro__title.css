@@ -7,8 +7,9 @@ color: #FFFFFF;
 margin-bottom: 40px;
 }
 
-@media all and (max-width: 425px) {
+@media all and (max-width: 800px) {
     .intro__title  {
         font-size: 32px;
     }
 } 
+
