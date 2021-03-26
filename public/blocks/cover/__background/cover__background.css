@@ -1,9 +1,10 @@
-.cover__background {
+/*.cover__background {
   background-image: url(../../../images/cover-trains.jpg);
   background-size: cover;
   background-position: center;
-  min-height: 70vh;
-  opacity: 0.3;
+  min-height: 70vw;
+  opacity: 0.8;
+  z-index: -1;
 }
 
 .footer__link:hover .cover__background {
@@ -18,7 +19,7 @@
 
   }
 
-} 
+
 
 @media screen  and (max-width: 800px) {
   .cover__background {
@@ -27,4 +28,4 @@
 
 } 
 
-
+*/

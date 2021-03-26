@@ -6,9 +6,8 @@
 }
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 300px) and (max-width: 1024px){
   .cover  {
-    max-width: 1024px;
     width: 100%;
     margin-left: 0;
     margin-right: 0;
@@ -16,18 +15,25 @@
 
 } 
 
-
-@media screen and (max-width: 768px) {
+@media screen and(max-width: 1024px){
   .cover  {
-    margin-bottom: 88px;
+    min-height: 40vh;
   }
 
 } 
 
+@media screen and (max-width: 768px) {
+  .cover  {
+    margin-bottom: 88px;
+    min-height: 40vh;
+  }
+
+} 
 
 @media screen and (max-width: 465px) {
     .cover  {
       margin-bottom:  64px;
+      min-height: 30vh;
     }
  
 } 
