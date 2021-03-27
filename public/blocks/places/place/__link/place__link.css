@@ -6,9 +6,9 @@
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    line-height: 122%;
-    text-decoration-line: underline;  
-    color: #FFFFFF;  
+    line-height: 122%;  
+    color: #FFFFFF;
+    text-decoration-line: underline; 
 }
 
 @media screen and (max-width: 425px) {
