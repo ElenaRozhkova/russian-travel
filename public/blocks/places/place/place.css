@@ -9,15 +9,23 @@
     box-sizing: border-box;
 }
 
+.place:last-of-type {
+    margin-bottom: 92px;
+}
+
 @media screen and (max-width: 1024px) {
     .place  {
         grid-column-gap:32px;
     }
 } 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     .place  {
         margin-bottom: 73px;
+    }
+
+    .place:last-of-type {
+        margin-bottom: 90px;
     }
 } 
 

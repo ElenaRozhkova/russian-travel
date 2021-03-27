@@ -16,13 +16,13 @@ margin-bottom: 92px;
     }
 } 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     .lead {
         margin-bottom: 88px;
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 500px) {
     .lead {
         margin-bottom: 64px;
     }

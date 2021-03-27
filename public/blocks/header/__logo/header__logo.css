@@ -3,7 +3,7 @@ max-width: 176px;
 width: 100%;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 740px) {
     .header__logo  {
         transform: scale(0.8);         
     }
