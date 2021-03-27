@@ -25,8 +25,7 @@ text-decoration: none;
 
 @media screen and (max-width: 740px) {
     .header__lang-link  {
-        font-size: 18px;
-       
+        font-size: 18px; 
     }
     .header__lang-link:last-of-type {
         margin-right: 0;
