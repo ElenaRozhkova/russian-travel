@@ -10,10 +10,10 @@
         .header {
             margin-bottom: 48px;
         }
-    } 
+    }
 
     @media screen and (max-width: 740px) {
         .header {
             min-height: 42px;
         }
-    } 
+    }

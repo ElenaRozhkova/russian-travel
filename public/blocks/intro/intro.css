@@ -1,23 +1,19 @@
 .intro {
-font-family: 'Inter', Arial, sans-serif;
-margin-bottom: 92px;
-max-width: 984px;
-margin-left: auto;
-margin-right: auto;
+    font-family: 'Inter', Arial, sans-serif;
+    margin-bottom: 92px;
+    max-width: 984px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-@media screen and (max-width: 1024px) {
-    .intro {
-       
-    }
-} 
 @media screen and (max-width: 800px) {
     .intro {
         margin-bottom: 88px;
     }
-} 
-@media screen and (max-width: 425px) {
+}
+
+@media screen and (max-width: 500px) {
     .intro {
         margin-bottom: 64px;
     }
-} 
+}

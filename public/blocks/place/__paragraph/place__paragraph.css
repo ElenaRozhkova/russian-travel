@@ -9,28 +9,26 @@
     color: #FFFFFF;
     margin-block-start: 0;
     margin-block-end: 0;
-    }
+}
 
 @media screen and (max-width: 768px) {
-    .place__paragraph  {
+    .place__paragraph {
         font-size: 16px;
     }
-} 
+}
 
 @media screen and (max-width: 740px) {
-    .place__paragraph   {
+    .place__paragraph {
         padding-left: 3%;
         padding-right: 3%;
     }
-} 
+}
 
 @media screen and (max-width: 425px) {
-    .place__paragraph  {
+    .place__paragraph {
         margin-bottom: 25px;
-
     }
-
     .place__paragraph:last-of-type {
         margin-bottom: 0;
     }
-} 
+}

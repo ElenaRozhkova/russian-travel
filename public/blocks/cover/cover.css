@@ -3,11 +3,8 @@
   margin-bottom: 92px;
 }
 
-
 @media screen and (max-width: 800px) {
-  .cover{
+  .cover {
     margin-bottom: 88px;
   }
-} 
-
-
+}

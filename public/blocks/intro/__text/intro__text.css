@@ -13,10 +13,10 @@
     .intro__text {
         font-size: 16px;
     }
-} 
+}
 
 @media all and (max-width: 500px) {
     .intro__text {
         margin-bottom: 34px;
     }
-} 
+}
