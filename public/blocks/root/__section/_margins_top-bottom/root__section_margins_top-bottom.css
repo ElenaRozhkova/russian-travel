@@ -1,9 +1,0 @@
-.root__section_margins_top-bottom {
-    padding-top: 28px;
-}
-
-@media screen and (max-width: 500px) {
-    .root__section_margins_top-bottom {
-        padding-top: 16px;
-    }
-}

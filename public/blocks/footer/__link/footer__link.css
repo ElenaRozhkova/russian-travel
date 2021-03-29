@@ -10,13 +10,7 @@
 }
 
 .footer__link:hover {
-    text-decoration: underline;
     opacity: 0.8;
-    transition: opacity 1s linear 2s;
-}
-
-.footer__link:hover .root__cover {
-    opacity: 0.3;
     transition: opacity 1s linear 2s;
 }
 

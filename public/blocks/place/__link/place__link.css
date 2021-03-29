@@ -9,13 +9,13 @@
     text-decoration-line: underline;
 }
 
-@media screen and (max-width: 425px) {
-    .place__link {
-        margin-bottom: 32px;
-    }
-}
-
 .place__link:hover {
     opacity: 0.8;
     transition: opacity 1s linear 2s;
+}
+
+@media screen and (max-width: 425px) {
+    .place__link {
+        max-width: 288px;
+    }
 }

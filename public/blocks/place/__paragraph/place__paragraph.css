@@ -9,6 +9,11 @@
     color: #FFFFFF;
     margin-block-start: 0;
     margin-block-end: 0;
+    margin-bottom: 26px;
+}
+
+.place__paragraph:last-of-type {
+    margin-bottom: 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -17,15 +22,12 @@
     }
 }
 
-@media screen and (max-width: 740px) {
-    .place__paragraph {
-        padding-left: 3%;
-        padding-right: 3%;
-    }
-}
 
 @media screen and (max-width: 425px) {
     .place__paragraph {
+        max-width: 288px;
+        margin-left: auto;
+        margin-right: auto;
         margin-bottom: 25px;
     }
     .place__paragraph:last-of-type {

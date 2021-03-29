@@ -1,15 +1,12 @@
 .header__lang-link {
-    max-width: 30px;
-    width: 100%;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 117%;
-    text-decoration-line: underline;
+    text-decoration-line: none;
     color: #FFFFFF;
-    margin-right: 18px;
-    text-decoration: none;
 }
+
 
 .header__lang-link:last-of-type {
     margin-right: 0;
@@ -25,7 +22,6 @@
     .header__lang-link {
         font-size: 18px;
     }
-    .header__lang-link:last-of-type {
-        margin-right: 0;
-    }
+
 }
+

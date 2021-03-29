@@ -18,8 +18,10 @@
     }
 }
 
+
 @media screen and (max-width: 740px) {
     .place__title {
+        margin-bottom: 32px;
         padding-left: 3%;
         padding-right: 3%;
     }
@@ -27,7 +29,7 @@
 
 @media screen and (max-width: 425px) {
     .place__title {
+        max-width: 288px;
         font-size: 32px;
-        margin-bottom: 32px;
     }
 }
