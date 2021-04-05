@@ -1,8 +1,10 @@
 .footer {
   font-family: 'Inter', Arial, sans-serif;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: rgb(182, 181, 180);
+  min-height: 100px;
 }
 
 @media screen and (max-width: 1024px) {
